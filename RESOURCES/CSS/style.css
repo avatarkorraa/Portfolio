@@ -339,6 +339,12 @@ nav ul li a:hover {
     .contact-info {
         text-align: center;
     }
+
+
+    header h1 {
+        font-size: 3.5em;
+    }
+
 }
 
 /* Tablet Styles */
