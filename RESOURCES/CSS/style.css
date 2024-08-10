@@ -92,7 +92,7 @@ nav ul li a:hover {
 
 #about {
     padding: 50px 30px;
-    max-width: 45%;
+    max-width: 50%;
     margin: 30px 0;
     display: grid;
     align-items: center;
@@ -101,9 +101,10 @@ nav ul li a:hover {
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15); /* Ombra per dare profondità */
 }
 
-#about img {
+#about #profilo {
     max-width: 250px;
     margin-right: 20px;
+    border-radius: 50%;
     grid-column: 1;
     grid-row: 2;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Ombra per l'immagine */
@@ -122,13 +123,15 @@ nav ul li a:hover {
     margin: 15px 0;
     line-height: 1.8;
     color: #333;
-    font-size: 1.1em; /* Aumentata la dimensione del testo */
+    font-size: 1.1em;
+    text-align: justify;
 }
 
 #about #list {
     grid-row: 3;
     grid-column: 2;
     list-style-type: none;
+    margin-top: 10%;
     padding: 0;
     display: flex;
     flex-direction: row;
@@ -160,6 +163,7 @@ nav ul li a:hover {
     font-size: 2em;
     margin-bottom: 40px;
     color: #002b36;
+    margin-left: 2.5%;
 }
 
 /* Sezione Skills */
@@ -168,7 +172,7 @@ nav ul li a:hover {
     padding: 40px 20px;
     margin: 30px 0;
     border-radius: 15px;
-    max-width: 55%;
+    max-width: 37%;
     overflow-x: hidden;
     white-space: nowrap;
 }
@@ -192,7 +196,7 @@ nav ul li a:hover {
     border-radius: 15px;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
     text-align: center;
-    min-width: 100px;
+    min-width: 80px;
     max-width: 120px;
     white-space: normal;
 }
